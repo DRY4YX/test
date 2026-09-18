@@ -35,6 +35,7 @@ Meine Antwort: Markdown ist eine einfache Sprache, um Texte zu formatieren.
 Meine Antwort: GFM ist die Markdown-Version von GitHub mit zusätzlichen Funktionen.
 
 2 · GitHub-Flow
+
 9. Bringe die Schritte in die richtige Reihenfolge
 Meine Antwort: Issue → Branch → Commit → Pull Request
 
@@ -66,6 +67,7 @@ Meine Antwort: Merge bedeutet, zwei Branches zusammenzuführen.
 Meine Antwort: Wenn die Änderungen geprüft und in Ordnung sind.
 
 3 · Wichtige Git-Begriffe und Befehle
+
 19. Was bedeutet Push?
 Meine Antwort: Push lädt die lokalen Commits auf GitHub hoch.
 
@@ -103,6 +105,7 @@ Meine Antwort: Nein, die Änderungen werden nur für den Commit vorbereitet.
 Meine Antwort: Nein, Push überträgt nur bereits gemachte Commits.
 
 4 · GitHub-Flow praktisch erklären
+
 31. Erkläre den GitHub-Flow in einem kurzen Satz.
 Meine Antwort: Man erstellt ein Issue, arbeitet auf einem Branch, macht Commits und erstellt danach einen Pull Request.
 
@@ -130,6 +133,7 @@ README Lernnachweis ergänzt
 Meine Antwort: Man weiss nicht, was genau geändert wurde.
 
 5 · Markdown und README
+
 38. Überschrift Ebene 1
 # Meine Lernsession
 
@@ -156,6 +160,7 @@ git commit
 Meine Antwort: Es sollte kurz erklären, worum es im Projekt geht und wichtige Informationen zeigen.
 
 6 · Mein fachlicher Lernnachweis
+
 Was habe ich heute über Git und GitHub gelernt?
 Ich habe gelernt, wie Git und GitHub funktionieren und wie der GitHub-Flow abläuft.
 
@@ -169,6 +174,7 @@ Mein nächster Portfolio-Schritt
 Ich möchte noch mehr mit Git und GitHub üben.
 
 7 · Microsoft Learn · Abschlusskontrolle
+
  Einführung in GitHub: Übung, Modulbewertung und Zusammenfassung abgeschlossen
 
  Effektive Kommunikation auf GitHub mithilfe von Markdown abgeschlossen
@@ -176,6 +182,7 @@ Ich möchte noch mehr mit Git und GitHub üben.
  Ich habe meinen Lernfortschritt / meine Modulbewertung kontrolliert.
 
 8 · Begriffe · deutsche Merkhilfe
+
 Begriff	Deutsche Merkhilfe
 Issue	Aufgabe
 Branch	Arbeitszweig
@@ -189,6 +196,7 @@ Clone	Kopieren
 Repository	Projektablage
 
 9 · Selbstcheck
+
  Ich kann Git und GitHub unterscheiden.
 
  Ich kann Issue → Branch → Commit → Pull Request → Merge erklären.
