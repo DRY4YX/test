@@ -1,296 +1,212 @@
-# IPT1 · Lernsession 03 · GitHub-Flow & Markdown
+IPT1 – Lernsession 03 – GitHub-Flow & Markdown
 
-> **Name:** _Benicshan_  
-> **Datum:** _08.09.2026_
 
-## Ziel
 
-Ich kann die wichtigsten Begriffe rund um **Git**, **GitHub**, den **GitHub-Flow** und **Markdown** kurz erklären und meinen Lernfortschritt mit einem eigenen README dokumentieren.
+IPT1 · Lernsession 03 · GitHub-Flow & Markdown
+Name: Jan Näf
+Datum: 18.09.2026
 
-> **Hinweis:** Ersetze die Platzhalter `DEINE ANTWORT` durch deine eigenen kurzen Antworten. Committe die ausgefüllte Datei anschliessend mit einer aussagekräftigen Commit-Nachricht.
+Ziel
+Ich kann die wichtigsten Begriffe rund um Git, GitHub, den GitHub-Flow und Markdown kurz erklären und meinen Lernfortschritt mit einem eigenen README dokumentieren.
 
----
+1 · Git und GitHub verstehen
+1. Was ist Git?
+Meine Antwort: Git ist ein Programm zum Speichern und Verwalten von Änderungen.
 
-## 1 · Git und GitHub verstehen
+2. Was ist GitHub?
+Meine Antwort: GitHub ist eine Plattform, auf der man Git-Projekte online speichern kann.
 
-### 1. Was ist Git?
+3. Was ist der wichtigste Unterschied zwischen Git und GitHub?
+Meine Antwort: Git verwaltet die Änderungen, GitHub ist die Online-Plattform dafür.
 
-**Meine Antwort:** Git ist eine Versionsverwaltung. Speichert und verwaltet Änderungen Projekten.
+4. Funktioniert Git auch ohne GitHub?
+Meine Antwort: Ja, Git funktioniert auch ohne GitHub auf dem eigenen Computer.
 
-### 2. Was ist GitHub?
+5. Was ist ein Repository (Repo)?
+Meine Antwort: Ein Repo ist ein Projekt mit seinen Dateien und Änderungen.
 
-**Meine Antwort:** GitHub ist eine Online Plattform für Git-Repo und Zusammenarbeit.
+6. Was ist der main-Branch?
+Meine Antwort: Der main-Branch ist normalerweise der Haupt-Branch eines Projekts.
 
-### 3. Was ist der wichtigste Unterschied zwischen Git und GitHub?
+7. Was ist Markdown?
+Meine Antwort: Markdown ist eine einfache Sprache, um Texte zu formatieren.
 
-**Meine Antwort:** Git verwaltet Versionen, GitHub stellt Git-Projekte online bereit und ünterstutzt Zusammenarbeit.
+8. Was bedeutet GitHub-Flavoured Markdown (GFM)?
+Meine Antwort: GFM ist die Markdown-Version von GitHub mit zusätzlichen Funktionen.
 
-### 4. Funktioniert Git auch ohne GitHub?
+2 · GitHub-Flow
+9. Bringe die Schritte in die richtige Reihenfolge
+Meine Antwort: Issue → Branch → Commit → Pull Request
 
-**Meine Antwort:** Ja, Git kann man vollständig lokal verwendet werden.
+10. Was ist ein Issue?
+Meine Antwort: Ein Issue ist eine Aufgabe, ein Fehler oder eine Idee.
 
-### 5. Was ist ein Repository (Repo)?
+11. Was ist ein Branch?
+Meine Antwort: Ein Branch ist ein eigener Arbeitszweig in einem Projekt.
 
-**Meine Antwort:** Repo ist ein Projekt mit Dateien und seone Versionsgeschichte.
+12. Warum arbeitet man für eine Änderung häufig auf einem eigenen Branch?
+Meine Antwort: Damit man die Änderung machen kann, ohne den Hauptstand zu verändern.
 
-### 6. Was ist der `main`-Branch?
+13. Was ist ein Commit?
+Meine Antwort: Ein Commit speichert einen bestimmten Stand des Projekts.
 
-**Meine Antwort:** Der main-Branch ist ein normalerweise der Hauptbestand eines Projekts.
+14. Wozu dient eine Commit-Nachricht?
+Meine Antwort: Sie sagt kurz, was geändert wurde.
 
-### 7. Was ist Markdown?
+15. Was ist ein Pull Request?
+Meine Antwort: Ein Pull Request ist eine Anfrage, um Änderungen zu prüfen und zu übernehmen.
 
-**Meine Antwort:** Markdown ist eine einfache Auszeichnungssprache, mit der Test strukturiert und formatiert wird.
+16. Was bedeutet Review?
+Meine Antwort: Beim Review werden die Änderungen angeschaut und geprüft.
 
-### 8. Was bedeutet GitHub-Flavoured Markdown (GFM)?
+17. Was bedeutet Merge?
+Meine Antwort: Merge bedeutet, zwei Branches zusammenzuführen.
 
-**Meine Antwort:** GFM ist GitHub erweiterte  Markdown  Variante z.B. mit Tabellen, Task-Listen und weiteren GitHub- Funktionen.
+18. Wann sollte ein Pull Request gemergt werden?
+Meine Antwort: Wenn die Änderungen geprüft und in Ordnung sind.
 
----
+3 · Wichtige Git-Begriffe und Befehle
+19. Was bedeutet Push?
+Meine Antwort: Push lädt die lokalen Commits auf GitHub hoch.
 
-## 2 · GitHub-Flow
+20. Was bedeutet Pull?
+Meine Antwort: Pull holt neue Änderungen von GitHub auf den eigenen Computer.
 
-### 9. Bringe die Schritte in die richtige Reihenfolge
+21. Was ist der Unterschied zwischen Commit und Push?
+Meine Antwort: Commit speichert die Änderung, Push lädt sie auf GitHub hoch.
 
-`Commit · Issue · Pull Request · Branch`
+22. Was ist der Unterschied zwischen Pull und Pull Request?
+Meine Antwort: Pull holt Änderungen. Ein Pull Request ist eine Anfrage zum Übernehmen von Änderungen.
 
-**Meine Antwort:** Issue, Branch, Commit, Pull Request 
+23. Was bedeutet Clone?
+Meine Antwort: Clone kopiert ein Repository auf den eigenen Computer.
 
-### 10. Was ist ein Issue?
+24. Was macht git status?
+Meine Antwort: Es zeigt, was im Projekt gerade geändert wurde.
 
-**Meine Antwort:** Ein Issue dokumentiert eine Aufgabe, Idee, Anforderung oder einen Fehler.
+25. Was macht git add?
+Meine Antwort: Damit wählt man Änderungen für den nächsten Commit aus.
 
-### 11. Was ist ein Branch?
+26. Was ist die Staging Area?
+Meine Antwort: Dort werden Änderungen für den nächsten Commit vorbereitet.
 
-**Meine Antwort:** Branch ist eine eigene Entwickelungslinie bzw. ein Arbeitszweig innerhalb eines Repo.
+27. Was macht git log?
+Meine Antwort: Es zeigt die bisherigen Commits an.
 
-### 12. Warum arbeitet man für eine Änderung häufig auf einem eigenen Branch?
+28. Was bedeutet Branch wechseln?
+Meine Antwort: Man wechselt auf einen anderen Arbeitszweig.
 
-**Meine Antwort:** Damit die Änderung getrennt vom Hauptstand entwickelt und geprüft werden kann.
+29. Speichert git add bereits eine neue Version?
+Meine Antwort: Nein, die Änderungen werden nur für den Commit vorbereitet.
 
-### 13. Was ist ein Commit?
+30. Speichert git push deine noch nicht committeten Dateiänderungen?
+Meine Antwort: Nein, Push überträgt nur bereits gemachte Commits.
 
-**Meine Antwort:** Ein Commit ist ein gespeicherter, nachvollziehbar Versionsbestand vor Änderungen. 
+4 · GitHub-Flow praktisch erklären
+31. Erkläre den GitHub-Flow in einem kurzen Satz.
+Meine Antwort: Man erstellt ein Issue, arbeitet auf einem Branch, macht Commits und erstellt danach einen Pull Request.
 
-### 14. Wozu dient eine Commit-Nachricht?
+32. Ordne die Begriffe zu
+Bedeutung	Git-/GitHub-Begriff
+Aufgabe	Issue
+Arbeitszweig	Branch
+Speicherpunkt	Commit
+Änderungsantrag	Pull Request
+Zusammenführen	Merge
 
-**Meine Antwort:** Sie beschreibt kurz und verständlich, was mit diesen Commit geändert wurde.
+33. Welche Richtung beschreibt Push?
+Meine Antwort: Vom eigenen Computer zu GitHub.
 
-### 15. Was ist ein Pull Request?
+34. Welche Richtung beschreibt Pull?
+Meine Antwort: Von GitHub zum eigenen Computer.
 
-**Meine Antwort:** Ist die Anfrage, Änderungen eines Branches zu prüffen und in einen Ziel-Branch zu übernehmen.
+35. Warum sind mehrere sinnvolle Commits oft besser als ein einziger riesiger Commit?
+Meine Antwort: So sieht man besser, was wann geändert wurde.
 
-### 16. Was bedeutet Review?
+36. Nenne ein Beispiel für eine gute Commit-Nachricht.
+README Lernnachweis ergänzt
 
-**Meine Antwort:** Heisst Änderungen geprüft und bei Bedarf kommentiert oder verbessert werden.
+37. Warum ist die Commit-Nachricht update wenig hilfreich?
+Meine Antwort: Man weiss nicht, was genau geändert wurde.
 
-### 17. Was bedeutet Merge?
+5 · Markdown und README
+38. Überschrift Ebene 1
+# Meine Lernsession
 
-**Meine Antwort:** Bedeutet, Änderungen aus verschiedene Branches Zusammenführen.
+39. Ungeordnete Liste
+- Git
+- GitHub
+- Markdown
 
-### 18. Wann sollte ein Pull Request gemergt werden?
+40. Link
+[GitHub](https://github.com)
 
-**Meine Antwort:** Wenn die Änderungen fachlich und technisch geprüft akzeptiert werden soll.
+41. Bild
+![Bild](bild.png)
 
----
+42. Inline-Code
+Meine Antwort: Mit git status sehe ich den aktuellen Stand meines Projekts.
 
-## 3 · Wichtige Git-Begriffe und Befehle
+43. Codeblock
+git status
+git add .
+git commit
 
-### 19. Was bedeutet Push?
+44. Was sollte ein gutes Portfolio-README mindestens leisten?
+Meine Antwort: Es sollte kurz erklären, worum es im Projekt geht und wichtige Informationen zeigen.
 
-**Meine Antwort:** Push überträgt lokale Commits zu einem entfernten Repo, z.B. auf GitHub.
+6 · Mein fachlicher Lernnachweis
+Was habe ich heute über Git und GitHub gelernt?
+Ich habe gelernt, wie Git und GitHub funktionieren und wie der GitHub-Flow abläuft.
 
-### 20. Was bedeutet Pull?
+Was habe ich heute praktisch umgesetzt?
+Ich habe mein README mit Markdown bearbeitet und meinen Lernfortschritt eingetragen.
 
-**Meine Antwort:** Pull holt Änderungen aus einem entfernten Repo und integriert sie in den lokalen Stand.
+Meine konkrete Verbesserung aus dem Selbst- oder Peer-Check
+Ich habe meine Antworten verbessert und mein README übersichtlicher gemacht.
 
-### 21. Was ist der Unterschied zwischen Commit und Push?
+Mein nächster Portfolio-Schritt
+Ich möchte noch mehr mit Git und GitHub üben.
 
-**Meine Antwort:** Commit speichert einen Versionsbestand in Git, Push  überträgt Commits zu GitHub bzw. einem Remote-Repo.
+7 · Microsoft Learn · Abschlusskontrolle
+ Einführung in GitHub: Übung, Modulbewertung und Zusammenfassung abgeschlossen
 
-### 22. Was ist der Unterschied zwischen Pull und Pull Request?
+ Effektive Kommunikation auf GitHub mithilfe von Markdown abgeschlossen
 
-**Meine Antwort:** Pull holt Änderungen; ein Pull-Request schlägt Änderungen zur Prüfung und Übernahme vor.
+ Ich habe meinen Lernfortschritt / meine Modulbewertung kontrolliert.
 
-### 23. Was bedeutet Clone?
+8 · Begriffe · deutsche Merkhilfe
+Begriff	Deutsche Merkhilfe
+Issue	Aufgabe
+Branch	Arbeitszweig
+Commit	Speicherpunkt
+Push	Hochladen
+Pull	Herunterladen
+Pull Request	Änderungsanfrage
+Review	Prüfen
+Merge	Zusammenführen
+Clone	Kopieren
+Repository	Projektablage
 
-**Meine Antwort:** Clone erstellt eine vollständige lokale Kopie eines Repo.
+9 · Selbstcheck
+ Ich kann Git und GitHub unterscheiden.
 
-### 24. Was macht `git status`?
+ Ich kann Issue → Branch → Commit → Pull Request → Merge erklären.
 
-**Meine Antwort:** git status zeigt den aktuellen Zustand der Arbeitsdateien und der Staging Area.
+ Ich kenne den Unterschied zwischen Commit und Push.
 
-### 25. Was macht `git add`?
+ Ich kenne den Unterschied zwischen Pull und Pull Request.
 
-**Meine Antwort:** Wählt Änderungen für den nächsten Commit aus und legt sie in die Staging Area.
+ Ich kann Überschriften, Listen, Links, Bilder und Codeblöcke in Markdown verwenden.
 
-### 26. Was ist die Staging Area?
+ Mein README wird auf GitHub korrekt gerendert.
 
-**Meine Antwort:** Ist der vorbereitete Bereich für Änderungen, die in den nächsten Commit aufgenommen werden sollen.
+ Ich habe mindestens eine konkrete Verbesserung umgesetzt.
 
-### 27. Was macht `git log`?
+ Ich habe meine Änderung mit einer aussagekräftigen Commit-Nachricht dokumentiert.
 
-**Meine Antwort:** git log zeigt die Commit bzw. Versionensgeschichte.
+Meine Commit-Nachricht für diese Abgabe
+README Lernnachweis ergänzt
 
-### 28. Was bedeutet Branch wechseln?
 
-**Meine Antwort:** Man wechselt von einer Entwickungslinie auf eine andere z.B. mit git switch.
 
-### 29. Speichert `git add` bereits eine neue Version?
-
-**Meine Antwort:** Nein, git add bereitet Änderungen nur für den nächsten Commit vor.
-
-### 30. Speichert `git push` deine noch nicht committeten Dateiänderungen?
-
-**Meine Antwort:** Nein, push überträgt nur vorhadene Commits, nicht committete Änderungen bleiben lokal.
-
----
-
-## 4 · GitHub-Flow praktisch erklären
-
-### 31. Erkläre den GitHub-Flow in einem kurzen Satz.
-
-**Meine Antwort:** Eine Aufgabe wird als Issue festgehalten, auf einen Branch bearbeitet,  in Commits gespeichert und über einen Pull-Request geprüft und anschliessend geprüft.
-
-### 32. Ordne die Begriffe zu
-
-| Bedeutung | Git-/GitHub-Begriff |
-|---|---|
-| Aufgabe | Issue |
-| Arbeitszweig | Branch |
-| Speicherpunkt | Commit |
-| Änderungsantrag | Pull Request |
-| Zusammenführen | Merge |
-
-### 33. Welche Richtung beschreibt Push?
-
-**Meine Antwort:** Von eigenen/lokalen Repo zum Remote- Repo bzw. GitHub.
-
-### 34. Welche Richtung beschreibt Pull?
-
-**Meine Antwort:** Vom Remote-Repo bzw. GitHub zum eigenen lokalen Repo.
-
-### 35. Warum sind mehrere sinnvolle Commits oft besser als ein einziger riesiger Commit?
-
-**Meine Antwort:** Weil Änderungen dadurch nachvollzeihbarer profitbarer und ebi Bedarf leichter rückgängig zu machen sind.
-
-### 36. Nenne ein Beispiel für eine gute Commit-Nachricht.
-
-```text
-DEINE COMMIT-NACHRICHT: Beispiel README um erster IPT1-Lernnachweis ergänzt.
-```
-
-### 37. Warum ist die Commit-Nachricht `update` wenig hilfreich?
-
-**Meine Antwort:** Weil es nicht beschreibt, was konkret geändert wurde.
-
----
-
-## 5 · Markdown und README
-
-### 38. Überschrift Ebene 1
-
-Ergänze darunter eine Markdown-Überschrift der Ebene 1:
-
-DEINE ANTWORT
-
-### 39. Ungeordnete Liste
-
-Erstelle eine Liste mit mindestens drei Begriffen aus dieser Lernsession:
-
-DEINE ANTWORT
-
-### 40. Link
-
-Erstelle einen funktionierenden Markdown-Link zu GitHub oder Microsoft Learn:
-
-DEINE ANTWORT
-
-### 41. Bild
-
-Schreibe die Markdown-Syntax für ein Bild mit Alternativtext:
-
-```text
-DEINE ANTWORT
-```
-
-### 42. Inline-Code
-
-Schreibe `git status` als Inline-Code in einem sinnvollen Satz:
-
-DEINE ANTWORT
-
-### 43. Codeblock
-
-Ergänze mindestens drei Git-Befehle in diesem Codeblock:
-
-```bash
-# DEINE BEFEHLE
-```
-
-### 44. Was sollte ein gutes Portfolio-README mindestens leisten?
-
-**Meine Antwort:** DEINE ANTWORT
-
----
-
-## 6 · Mein fachlicher Lernnachweis
-
-### Was habe ich heute über Git und GitHub gelernt?
-
-Git verwaltet Versionsgewalt eines Projekts. GitHub stellt Git-Repo online bereit.
-
-### Was habe ich heute praktisch umgesetzt?
-
-Ich habe mein README mit Markdown struktiert, einen Lernachweis ergänzt.
-
-### Meine konkrete Verbesserung aus dem Selbst- oder Peer-Check
-
-DEINE ANTWORT
-
-### Mein nächster Portfolio-Schritt
-
-DEINE ANTWORT
-
----
-
-## 7 · Microsoft Learn · Abschlusskontrolle
-
-- [] **Einführung in GitHub**: Übung, Modulbewertung und Zusammenfassung abgeschlossen
-- [ ] **Effektive Kommunikation auf GitHub mithilfe von Markdown** abgeschlossen
-- [x] Ich habe meinen Lernfortschritt / meine Modulbewertung kontrolliert.
-
-## 8 · Begriffe · deutsche Merkhilfe
-
-Fülle die zweite Spalte mit einer kurzen deutschen Merkhilfe aus.
-
-| Begriff | Deutsche Merkhilfe |
-|---|---|
-| Issue | Aufgabe/ Ticket  |
-| Branch | Zweig  |
-| Commit | gespeichter Versionenbestand  |
-| Push | Senden/hochladen |
-| Pull | holen/ aktualisieren |
-| Pull Request | Änderungsanfrag |
-| Review | prüfen |
-| Merge | zusammenführen  |
-| Clone | klonen / kopieren |
-| Repository | Projektablage mit Versionsgeschichte |
-
----
-
-## 9 · Selbstcheck
-
-- [x ] Ich kann **Git** und **GitHub** unterscheiden.
-- [x] Ich kann **Issue → Branch → Commit → Pull Request → Merge** erklären.
-- [x ] Ich kenne den Unterschied zwischen **Commit** und **Push**.
-- [x ] Ich kenne den Unterschied zwischen **Pull** und **Pull Request**.
-- [ ] Ich kann Überschriften, Listen, Links, Bilder und Codeblöcke in Markdown verwenden.
-- [ ] Mein README wird auf GitHub korrekt gerendert.
-- [ ] Ich habe mindestens eine konkrete Verbesserung umgesetzt.
-- [ ] Ich habe meine Änderung mit einer aussagekräftigen Commit-Nachricht dokumentiert.
-
-## Meine Commit-Nachricht für diese Abgabe
-
-```text
-DEINE COMMIT-NACHRICHT
-```
